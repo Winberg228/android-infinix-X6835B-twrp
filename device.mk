@@ -11,7 +11,6 @@ LOCAL_PATH := device/infinix/X6835B
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Boot control HAL
-
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     
