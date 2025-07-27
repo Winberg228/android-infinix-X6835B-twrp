@@ -152,3 +152,11 @@ TW_INCLUDE_REPACKTOOLS := true
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# Сжимаем ramdisk
+LZMA_RAMDISK_TARGETS := recovery
+BOARD_RAMDISK_USE_LZMA := true
+
+# Уменьшаем размер ядра
+TARGET_KERNEL_CONFIG := X6835B_defconfig
+TARGET_KERNEL_OPTIMIZATION := size
